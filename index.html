@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <title>homepage</title>
+
+
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Diner<span>.</span></a>
+            <ul class="nav">
+                <li><a href="#banner">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="photogal.html">Photos</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </header>
+        <section class="banner" id="banner">
+        <div class="content">        
+        <h2>Welcome!</h2>
+        <p>The Best Food in Town Awaits You</p>
+        <a href="menu.html" class="btn">Menu</a>
+        </div> 
+       </section>
+       <script type="text/javascript">
+       window.addEventListener("scroll",function(){
+           var header = document.querySelector("header");
+           header.classList.toggle("sticky",window.scrollY > 0);
+       })
+    
+    </script>
+    
+       <section class="menu" id="menu"> 
+           <div class="title">
+               <h2 class="Ttext">Our <span>M</span>enu</h2>
+               <p>Special Meals for the Day</p>
+           </div>
+           <div class="content">
+               <div class="box">
+                   <div class="imgbx">
+                       <img src="img/menu-group-1.jpg">
+                   </div>
+                <div class="text">
+                    <h3>Salads</h3>
+                </div> 
+
+               </div>
+               <div class="box">
+                <div class="imgbx">
+                    <img src="img/menu-group-2.jpg">
+                </div>
+             <div class="text">
+                 <h3>BARBEQUE</h3>
+             </div> 
+
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <img src="img/menu-group-3.jpg">
+                </div>
+             <div class="text">
+                 <h3>BEANS</h3>
+             </div> 
+
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <img src="img/menu-group-4.jpg">
+                </div>
+             <div class="text">
+                 <h3>Sweets</h3>
+             </div> 
+
+            </div>
+           </div>
+           <div class="title">
+            <a href="menu.html" class="btn">View All</a>
+        </div>
+       </section>
+       <section class="events" id="events">
+        <div class="row">
+            <div class="col50">
+                <h2 class="Ttext"><span>E</span>vents</h2>
+               <p> <br><br><h4>Live Music Concerts.</h4>Enjoy the food with Live music Performaces.<br><br>
+                <h4>Wedding Parties.</h4>Its our honor to be your Wedding Host.<br><br>
+                <h4>Gathering with Chefs.</h4>Watch and learn from experts.<br><br>
+               <h4>Cocktail Nights.</h4>Enjoy fun parties.<br><br> </p>
+            </div>
+            <div class="col50">
+                <div class="imgbx">
+                    <img src = "img/events.png" width="600" height="500" >
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact"> 
+        <div class="title">
+            <h2 class="Ttext"><span>C</span>ontact Us</h2>
+        </div>
+        <div class ="cformimg">
+        <img src="img/contact.png" height="500px" width="500px">
+        </div>
+        <div class="cform">
+            <h3>Send us your feedback</h3>
+            <div class="inputbox">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inputbox">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputbox">
+                <textarea placeholder="Message"></textarea>
+            </div>
+            <div class="inputbox">
+                <input type="submit" placeholder="send">
+            </div>
+            
+            
+        </div>
+        </section>
+    <footer>
+        <div class="footer-content">
+            <h3>Diner</h3>
+            <p>Thankyou For visiting Our Website.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>PH.No XXXXXXX</p>
+            <p>contact@diner.info</p>
+            <p>copyright &copy;2021 Diner. designed by Ritesh Chaudhary</p>
+        </div>
+    </footer>
+       
+    
+    </body>
+</html>
